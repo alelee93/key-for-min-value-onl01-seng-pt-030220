@@ -3,6 +3,10 @@
 
 def key_for_min_value(name_hash)
   name_hash.each |key, value| do 
+    i = 0
+    if name_hash.length > i 
+      
+    i += 1
   end
-  
+  end
 end
