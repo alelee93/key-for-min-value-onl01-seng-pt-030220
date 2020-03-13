@@ -9,7 +9,7 @@ def key_for_min_value(name_hash)
     array_values.shift(value)
   end
   
-  if i < array_values.length
+  if i < array_values.length-1
       if array_values[i] < array_values[i+1]
         min = array_values[i]
       else
