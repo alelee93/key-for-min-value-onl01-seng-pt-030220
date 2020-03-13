@@ -5,7 +5,7 @@ def key_for_min_value(name_hash)
   array_values = []
   
   i = 0
-  name_hash.each |key, value| do 
+  name_hash.each |:key, value| do 
     array_values.shift(value)
   end
   
