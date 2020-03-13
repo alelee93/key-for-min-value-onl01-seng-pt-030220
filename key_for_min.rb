@@ -15,7 +15,7 @@ def key_for_min_value(name_hash)
       else
         min = array_values[i+1]
       end
-    
     i += 1
   end
+  min
 end
